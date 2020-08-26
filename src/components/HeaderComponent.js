@@ -36,7 +36,7 @@ class Header extends Component {
             Remember: ${this.remember.checked}`);
         this.toggleModal();
         event.preventDefault();
-    }
+    } 
 
     render() {
         return(
@@ -77,9 +77,9 @@ class Header extends Component {
                                         <i className="fa fa-address-card fa-lg" /> Contact Us
                                     </NavLink>
                                 </NavItem>
-                            </Nav>
+                            </Nav> 
                             <span className="navbar-text ml-auto">
-                                <Button outline onClick={this.toggleModal}>
+                                <Button outline onClick={this.toggleModal}> {/*================== Login Modal Button ======================*/}
                                     <i className="fa fa-sign-in fa-lg" /> Login
                                 </Button>
                             </span>
